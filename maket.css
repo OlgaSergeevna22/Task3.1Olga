@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1144px;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-image: url(images/bgmakheader.svg);
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 138px;
+}
+
+h1 {
+    color: #003395;
+    -webkit-text-stroke: 1px black;
+    font-size: 54px;
+    text-align: left;
+    margin-bottom: 27px;
+    font-weight: 500;
+}
+
+header p {
+    color: #000000;
+    -webkit-text-stroke: 1px black;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #003395;
+    padding-top: 27px;
+    padding-bottom: 26px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 62px;
+    text-decoration: none;
+}
+
+.leftcolumn,
+.rightcolumn {
+    vertical-align: top;
+}
+
+.leftcolumn {
+    display: inline-block;
+    width: 754px;
+    margin-top: 57px;
+    /* margin-right: 23px т.к. при большем значении (как в макете 30) правая колонка уходит вниз.
+    max-width: 1144px. 754+362=1116, т.е. остается 28 px. поставила 23рх, т.к. при 24-28 правая колонка опять же уходит вниз */
+    margin-right: 23px;
+}
+
+.rightcolumn {
+    display: inline-block;
+    width: 362px;
+    margin-top: 56px;
+}
+
+main div div div {
+    border: #33008D solid 2px;
+    margin-bottom: 55px;
+}
+
+.topcol h3 {
+    background: #24B0FF;
+    margin: 19px 19px 14px 19px;
+    padding: 14px 17px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.topcol p {
+    font-weight: 400;
+    font-size: 16.2px;
+    color: #30233D;
+    margin: 0 19px 26px 19px;
+    line-height: 163.3%;
+}
+
+.bottomcol h3 {
+    background: #24B0FF;
+    margin: 22px 19px 22px 19px;
+    padding: 16.66px 17px 10.86px 17px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.bottomcol a {
+    color: #30233D;
+    font-size: 16.2px;
+    font-weight: 400;
+    margin: 0 64px 23.6px 19px;
+    line-height: 163.3%;
+}
+
+.leftcolumn h2 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #003395;
+    padding: 13px 0 15px 1px;
+    border-top: #003395 solid 2px;
+    border-bottom: #003395 solid 2px;
+}
+
+.leftcolumn p {
+    font-size: 24;
+    font-weight: 400;
+    color: #30233D;
+    padding-top: 16px;
+    margin-bottom: 34px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #003395, #00205F);
+}
+
+footer p {
+    color: #FCFCFC;
+    font-size: 11.7px;
+    font-weight: 400;
+    line-height: 163.3%;
+    padding-top: 45px;
+    padding-bottom: 83px;
+    text-align: right;
+}
